@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <!-- wep fonts -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- for bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="item text-center">
+        <!-- <h1>#Smart Login System </h1> -->
+        <div class=" col-md-4 shadow border border rounded-3  text-center  py-5 px-2 ">
+            <h4 class=" mb-md-7 ">Sign UP
+            </h4>
+            <h5 class=" mb-3  mt-5">create Account </h5>
+            <div class=" mb-3   ">
+                <input id="userNameInput" type="text " class="form-control   text-dark " placeholder="User Name">
+                <p id="userNameSignUpAlert" class="text-start ps-2 alert-danger  mt-1 mb-0 d-none p-0"> start with
+                    Capital character and(5-15)character</p>
+            </div>
+            <div class=" mb-3  mt-2 ">
+
+                <input id="userEmail" type="email " class="form-control   text-dark " placeholder="Email">
+                <p id="userEmailSignUpAlert" class="text-start ps-2 alert-danger mt-1 mb-0 d-none p-0">
+                    exampel@gmail.com</p>
+                <p id="emailExist" class=" alert-danger fw-bold mt-1 mb-0 d-none p-0"> this email papaap</p>
+
+            </div>
+            <div class=" mb-3    ">
+
+
+                <input id="passwordInput" type="password" class="  form-control  text-dark " placeholder="Password">
+
+                <p id="userPasswordSignUpAlert" class=" alert-danger text-start ps-2 mt-1 mb-0 d-none p-0">write 5 to 15
+                    characters</p>
+
+
+            </div>
+            <!-- <p class="  alert-heading text-danger fw-bolder "> write yuor Name</p> -->
+            <button onclick="signUpBtn()" id="signUpBtn" class="fw-bold btn btn-dark  py-2 px-5 mt-2  ">SIGN up</button>
+            <p id="existAlert" class="mt-2 fw-bold alert-danger col-md-9 d-none m-auto">this email or acount is exist !
+                Try another one.</p>
+            <p id="sucssesAlert" class="mt-2 fw-bold alert-primary col-md-8 d-none m-auto">Sing Up Sucsess </p> <br>
+            <a href="index.html" class="fw-bold  text-capitalize ">  Sing in </a>
+
+        </div>
+    </section>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

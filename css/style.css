@@ -1,0 +1,36 @@
+.item{
+background-image: url(../imges/2021-09-29_203819.png);
+color: white;
+background-size: cover;
+background-position: center center ;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-repeat: no-repeat;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.margin-sinIn{
+   
+    /* margin-top: 5rem; */
+}
+body:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: rgb(158, 156, 252);
+    opacity: 0.1;
+    z-index: -1;
+}
+.iconPssowrd{
+    top: 30%;
+    right: 4%;     
+    cursor: pointer; 
+}
+#passwordInput:focus{
+    outline: none !important;
+}
